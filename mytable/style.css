@@ -1,6 +1,6 @@
 body{
   font-family:Times New Roman;
-  text-transform:uppercase;
+  text-transform:none;
 }
 table,th,td{
   border:2px solid black;
@@ -16,11 +16,14 @@ img{
   width:250px;
 }
 p ,a:{
-  text-transform:none
+  text-transform:none;
 }
 p{
   font-size:15px;
   a{
     font-size:10px;
   } 
+  h2{
+    text-transform:uppercase;
+  }
   
