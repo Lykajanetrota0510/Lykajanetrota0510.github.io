@@ -29,7 +29,7 @@ p{
   .container{
   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
   color:black;
-  padding:0px 10px;
+  padding:5px 5px;
   display:flex;
   justify-content:space-around;
 }
