@@ -3,14 +3,12 @@ body{
 }
 .my-container h1{
   padding:20px;
-  text-align:center;
   color:black;
 }
    
 h1{
  font-family: 'Zhi Mang Xing', cursive;
   padding:30px;
-  text-align:center;
   font-size:40px;
 }
 h2{
