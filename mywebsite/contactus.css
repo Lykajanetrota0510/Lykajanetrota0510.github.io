@@ -1,0 +1,136 @@
+{
+  @import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+}
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Coda Caption', sans-serif;
+}
+.contact
+{
+  position:relative;
+  min-height:80vh;
+  padding:50px 100px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+ }
+.contact .content
+{
+  max-width:700px;
+  text-align:center;
+}
+.contact .content h2
+{
+  font-weight:400px;
+  color:#0000ff;
+  font-size:50px;
+  }
+.contact .content p
+{
+  font-weight:400;
+  color:#000066;
+  }
+.cointainer
+{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:20px;
+ }
+.cointainer .contactInfo
+{
+  width:50%;
+  display:flex;
+  flex-direction:column;
+  
+  
+ }
+.cointainer .contactInfo .box
+{
+  position:relative;
+  padding:20px 0;
+  display:flex; 
+}
+.container .contactInfo .box .icon
+{
+  width:50px;
+  height:50px;
+  background:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:100%;
+  font-size:30px;
+ 
+ }
+.container .contactInfo .box .text
+{
+  display:flex;
+  margin-left:20px;
+  font-size:16px;
+  flex-direction:column;
+  font-weight:300;
+}
+.container .contactInfo .box .text h3
+{
+  font-weight:300px;
+  color:#fff;
+  font-size:30px;
+  padding:0;
+ }
+.contactform
+{
+ width:50%;
+  height:280px;
+ padding:50px;
+ background:#fff; 
+  }
+.contactform h2{
+  font-size:20px;
+  color:#c0392b;
+  font-weight:500;
+  text-align:center;
+}
+.contactform .inputbox
+{
+  position:relative;
+  width:100%;
+  margin-top:1px;
+  }
+.contactForm .inputbox input,
+.contactForm .inputbox textarea
+{
+  width:100%;
+  padding:5px 0;
+  font-size:16px;
+  margin:10px 0;
+  border:none;
+  outline:none;
+  border-bottom:2px solid #333;
+  resize:none;
+ }
+.contactForm .inputbox span
+{
+  position:absolute;
+  left:0;
+  padding:5px 0;
+  font-size:16px;
+  margin:10px 0;
+  }
+.contactForm .inputbox [type="submit"]
+{
+  width:100px;
+  background:#00bcd4;
+  color:#fff;
+  border:none;
+  cursor:pointer;
+  padding:10px;
+  font-size:18px;
+}
+body{
+background-image:linear-gradient(to top, #000066 0%, #ff99cc 100%);
+}
