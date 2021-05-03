@@ -1,0 +1,19 @@
+body{
+  font-size:20px;
+  text-align:center;
+  color:black;
+  }
+h1{
+  font-family: 'Ultra', serif;
+  font-size:50px;
+  Text-align:center;
+  }
+p{
+ font-family: 'Tangerine', cursive;
+  font-size:50px;
+  padding:0;
+  Text-align:center;
+  }
+body{
+background-image:linear-gradient(to right, #ff6666 0%, #ff99cc 100%);linear-gradient(to bottom left, #ff6666 0%, #ff99cc 100%);
+  }
